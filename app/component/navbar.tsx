@@ -20,7 +20,8 @@ export default function page(){
       ];
 
     return (
-        <div className="flex justify-between px-12 py-12 w-full h-24 bg-transparent">
+        <div className="flex justify-between px-12 py-12 w-full h-24" style={{backgroundColor: "#000E1C",
+        backgroundRepeat: 'no-repeat'}}>
          <Link href='/ui/home'>
             <Image 
             src='/logo.svg' 

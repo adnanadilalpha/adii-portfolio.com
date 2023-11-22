@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+body{
+  background-color: #000E1C;
+  background-repeat: no-repeat
+}
