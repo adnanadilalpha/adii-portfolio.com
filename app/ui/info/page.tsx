@@ -38,18 +38,18 @@ export default function page () {
          your target audience, fostering authentic bonds.
         </p>
         <p>
-        In the realm of design, I'm a passionate advocate 
+        In the realm of design, I&apos;m a passionate advocate 
         for the human touch. Each click, 
         every swipe, is a chance to orchestrate 
         a symphony of delight, harmonizing 
-        with users' needs. I offer dynamic 
+        with user&apos;s needs. I offer dynamic 
         user testing services to infuse 
         vitality into your aspirations, 
         collaborating to craft experiences that 
         resonate and empower your journey to excellence.
         </p>
         <p>
-        Together, let's breathe soul, 
+        Together, let&apos;s breathe soul, 
         intent, and innovation into your digital presence.
         </p>
         </div>
