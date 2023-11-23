@@ -7,7 +7,7 @@ export default function Home() {
     <div className='flex flex-col justify-center items-center gap-8 fixed top-1/2'>
       <p className='text-6xl font-bold'>Welcome to Adnan Adil Portfolio
       </p>
-      <Link className='uppercase text-2xl text-blue-600 hover:text-cyan-500' href='/ui/home'>Let's get in...</Link>
+      <Link className='uppercase text-2xl text-blue-600 hover:text-cyan-500' href='/ui/home'>Let&apos;s get in...</Link>
     </div>
     </main>
   )

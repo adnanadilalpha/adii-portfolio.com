@@ -5,8 +5,8 @@ import Link from "next/link"
 import clsx from "clsx"
 import { usePathname } from "next/navigation"
 
-export default function page(){
-    const pathname = usePathname();
+export default function Navbar(){
+    const pathname =    usePathname();
     const links = [
         { name: 'Home', href: '/ui/home' },
         {
