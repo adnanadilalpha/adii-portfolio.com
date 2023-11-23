@@ -8,7 +8,8 @@ export default function page (){
 
 
     // main container
-    <div className="text-slate-50 w-full h-full p-12 justify-center flex flex-col">
+    <div className="text-slate-50 w-full h-full p-12 justify-center flex flex-col"
+    style={{backgroundColor: "#000E1C",}}>
  {/*first section for profession*/}
  <div className="flex flex-col  gap-6 mb-8">
   <div className="mb-4">
@@ -29,7 +30,7 @@ export default function page (){
  <div className="flex gap-8 overflow-hidden shrink-0 z-0">
  <div className="space-y-6">
 <Link href=''>
- <Image className="rounded-lg"
+ <Image className="rounded-lg border"
  src='/portfolio/dub.png' 
  width={320}
  height={220}
@@ -46,7 +47,7 @@ export default function page (){
 </div>
 <div className="space-y-6">
 <Link href=''>
- <Image className="rounded-lg"
+ <Image className="rounded-lg border"
  src='/portfolio/up.png' 
  width={320}
  height={220}
@@ -57,13 +58,13 @@ export default function page (){
   </Link>
   <div>
     <Link href="link">
-     <h3 className="text-white uppercase text-lg">dubdubai case study</h3>
+     <h3 className="text-white uppercase text-lg">Upland case study</h3>
     </Link>
   </div>
 </div>
 <div className="space-y-6">
 <Link href=''>
- <Image className="rounded-lg"
+ <Image className="rounded-lg border"
  src='/portfolio/alp.png' 
  width={320}
  height={220}
@@ -74,7 +75,7 @@ export default function page (){
   </Link>
   <div>
     <Link href="link">
-     <h3 className="text-white uppercase text-lg">dubdubai case study</h3>
+     <h3 className="text-white uppercase text-lg">Alpha Squad Website</h3>
     </Link>
   </div>
 </div>
