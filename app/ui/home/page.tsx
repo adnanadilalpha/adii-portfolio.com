@@ -11,7 +11,7 @@ export default function page (){
     <div className="text-slate-50 w-full h-full p-12 justify-center flex flex-col"
     style={{backgroundColor: "#000E1C",}}>
  {/*first section for profession*/}
- <div className="flex flex-col  gap-6 mb-8">
+ <div className="flex flex-col gap-6 mb-8">
   <div className="mb-4">
     <h1 className="uppercase text-5xl font-extrabold">
     Adnan Adil Full Stack Designer
