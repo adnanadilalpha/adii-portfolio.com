@@ -47,7 +47,7 @@ export default function page (){
 <div className="space-y-6">
 <Link href=''>
  <Image className="rounded-lg"
- src='/portfolio/dub.png' 
+ src='/portfolio/up.png' 
  width={320}
  height={220}
  alt="dubdubai project overview"
@@ -64,7 +64,7 @@ export default function page (){
 <div className="space-y-6">
 <Link href=''>
  <Image className="rounded-lg"
- src='/portfolio/dub.png' 
+ src='/portfolio/alp.png' 
  width={320}
  height={220}
  alt="dubdubai project overview"
