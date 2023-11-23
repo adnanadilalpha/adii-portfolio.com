@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from "@/app/component/navbar"
 import Socail from './component/social'
 import { poppins } from './ui/fonts'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
        <Navbar></Navbar>
         {children}
         <Socail></Socail>
+        <Analytics/>
         </body>
 
     </html>
