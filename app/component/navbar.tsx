@@ -36,15 +36,15 @@ export default function Navbar(){
         <nav className="bg-black flex justify-between w-full  md:px-12 md:py-4" 
         style={{backgroundColor: "#000E1C",}}>
           <div className={`flex  w-full  ${isOpen ? 'flex flex-col gap-32 h-screen z-10 fixed' : 'justify-between gap-0'}`} style={customStyle}>
-<div className={`md:w-auto ${isOpen ? 'flex justify-between p-4 w-full' : "flex justify-between w-full p-4"}`}>
+<div className={`md:w-auto ${isOpen ? 'flex justify-between items-center p-4 w-full' : "flex justify-between items-center w-full p-4"}`}>
             <Link href="/ui/home">
-              <Image src="/logo.svg" width={44} height={44} alt="A symbol logo" className="md:w-16 md:h-16"/>
+              <Image src="/logo.png" width={64} height={64} alt="A symbol logo" className="md:w-16 md:h-16"/>
             </Link>
             {/* Hamburger menu for mobile */}
             <div className="md:hidden">
               <button onClick={toggleNavbar}>
                 <svg
-                  className="w-6 h-6 text-white cursor-pointer"
+                  className="w-8 h-8 text-white cursor-pointer"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
