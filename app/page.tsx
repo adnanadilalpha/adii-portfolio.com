@@ -6,8 +6,8 @@ export default function Home() {
     <main className='w-full h-screen fixed flex justify-center items-center' style={{backgroundColor: "#000E1C",
     backgroundRepeat: 'no-repeat'}} >
       <div className='flex justify-center'>
-<Image className='fixed top-28 animate-pulse'
-        src='/element/vec.png'
+<Image className='fixed top-28 '
+        src='/giphy.gif'
         width={200}
         height={200}
         alt='' />

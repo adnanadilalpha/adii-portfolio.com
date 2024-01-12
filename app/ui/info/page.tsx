@@ -1,4 +1,8 @@
+'use client'
+
 import Image from "next/image"
+import Link from "next/link"
+import DownloadResumeButton from "./resumebtn"
 
 export default function page () {
     return (
@@ -53,15 +57,28 @@ export default function page () {
         intent, and innovation into your digital presence.
         </p>
         </div>
-        <div className="w-96 flex items-center fixed right-12 top-60">
+        <div className="w-96 flex flex-col gap-6 items-center fixed right-12 top-60">
        <Image
        src="/portfolio/tag.png"
        width={460}
        height={420}
        alt="professional photo"
        >
-       
        </Image>
+
+       <div className="flex">
+                    <div>
+                    </div>
+
+<div className="flex items-start gap-4">
+<Link href="/adnancv.pdf" target="blank">
+<button className="border border-blue-700 rounded-sm py-2 w-44 hover:border-blue-400 hover:text-blue-700">
+           View Resume
+           </button>
+</Link>
+         <DownloadResumeButton></DownloadResumeButton>
+</div>
+                </div>
          </div>
         </div>
            </div>

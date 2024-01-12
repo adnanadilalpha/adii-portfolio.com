@@ -15,10 +15,6 @@ export default function Navbar(){
           name: 'About me',
           href: '/ui/info',
         },
-        {
-            name: 'Resume',
-            href: '/ui/resume',
-        }
       ];
 
       const [isOpen, setIsOpen] = useState(false);
