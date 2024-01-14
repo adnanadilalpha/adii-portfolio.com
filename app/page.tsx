@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Spline from '@splinetool/react-spline';
 
 export default function Home() {
   return (
