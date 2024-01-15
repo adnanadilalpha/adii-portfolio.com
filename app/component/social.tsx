@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function socail () {
     return (
-        <div className="text-white pl-4 md:pl-12 " style={{backgroundColor: "#000E1C",
+        <div className="flex items-center justify-center md:block text-white pl-4 md:pl-12 " style={{backgroundColor: "#000E1C",
         backgroundRepeat: 'no-repeat'}}>
             <div className="flex flex-wrap space-x-8 md:space-x-32">
 

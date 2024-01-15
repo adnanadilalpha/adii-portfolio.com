@@ -13,8 +13,8 @@ export default function Home() {
         height={200}
         alt='' />
       </div>
-    <div className='flex flex-col text-center justify-center items-center gap-4 md:gap-8 fixed md:top-1/2'>
-      <p className='text-2xl md:text-4xl xl:text-6xl font-bold'>Welcome to Adnan Adil Portfolio
+    <div className='flex flex-col text-center justify-center items-center gap-6 md:gap-8 fixed md:top-1/2'>
+      <p className='text-2xl px-4 md:text-4xl xl:text-6xl font-bold'>Experience Artistic Invitation.
       </p>
       <Link className='animate-bounce hover:animate-none bg-blue-500 uppercase text-xl text-white
        hover:text-slate-800 md:text-2xl px-4 py-3 rounded-lg' href='/ui/home'>

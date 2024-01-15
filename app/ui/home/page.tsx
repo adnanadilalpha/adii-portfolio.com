@@ -13,22 +13,22 @@ export default function page (){
  {/*first section for profession*/}
  <div className="flex flex-col gap-6 mb-8">
   <div className="mb-4">
-    <h1 className="uppercase text-2xl md:text-4xl lg:text-5xl font-extrabold">
-    Adnan Adil Full Stack Designer
-    </h1>
   </div>
-  <h1 className="uppercase text-xl md:text-3xl lg:text-4xl font-semibold">
+  <h1 className="uppercase text-center md:text-left text-xl md:text-3xl lg:text-4xl font-semibold">
     Hello There,
   </h1>
-  <p className="text-lg  md:text-2xl font-medium">
+  <p className="text-lg text-center md:text-left md:text-2xl font-medium">
     Welcome to my portfolio.
   </p>
+  <h1 className="uppercase text-center md:text-left text-2xl md:text-4xl lg:text-5xl font-extrabold">
+    Adnan Adil Full Stack Designer
+    </h1>
  </div>
 
 {/*second section for portfolio*/}
  <div className="w-full flex">
  <div className="flex-wrap md:flex gap-8 overflow-hidden lg:shrink-0 z-0">
- <div className=" w-auto md:w-96 flex items-center md:fixed right-12 top-60">
+ <div className=" w-auto md:w-96 flex items-center md:fixed pb-4 right-12 top-60">
 <Image
 src="/portfolio/tag.png"
 width={460}
@@ -38,7 +38,7 @@ alt="professional photo"
 
 </Image>
   </div>
- <div className="space-y-6">
+ <div className="space-y-6 flex flex-col items-center pb-4 md:block md:pb-0">
 <Link href=''>
  <Image className="rounded-lg border"
  src='/portfolio/dub.png' 
@@ -55,7 +55,7 @@ alt="professional photo"
     </Link>
   </div>
 </div>
-<div className="space-y-6">
+<div className="space-y-6 flex flex-col items-center pb-4 md:block md:pb-0">
 <Link href=''>
  <Image className="rounded-lg border"
  src='/portfolio/up.png' 
@@ -72,7 +72,7 @@ alt="professional photo"
     </Link>
   </div>
 </div>
-<div className="space-y-6">
+<div className="space-y-6 flex flex-col items-center pb-4 md:block md:pb-0">
 <Link href=''>
  <Image className="rounded-lg border"
  src='/portfolio/alp.png' 

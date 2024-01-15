@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image"
+import DownloadResumeButton from "../ui/info/resumebtn";
 import Link from "next/link"
 import clsx from "clsx"
 import { usePathname } from "next/navigation"
@@ -79,9 +80,21 @@ export default function Navbar(){
                   {link.name}
                 </Link>
               ))}
+       <div className="flex md:hidden">
+                    <div>
+                    </div>
 
+<div className="flex flex-col items-start gap-4">
+<Link href="/adnancv.pdf" target="blank">
+<button className="border border-blue-700 rounded-sm py-2 w-44 hover:border-blue-400 hover:text-blue-700">
+           View Resume
+           </button>
+</Link>
+         <DownloadResumeButton></DownloadResumeButton>
+</div>
+                </div>
               <div>
-                <Image className="md:hidden block fixed bottom-0 left-0" src="/prof.png" width={220} height={280} alt="profile picture"/>
+                <Image className="md:hidden block fixed bottom-0 left-0" src="/prof.png" width={180} height={180} alt="profile picture"/>
               </div>
             </div>
           </div>
