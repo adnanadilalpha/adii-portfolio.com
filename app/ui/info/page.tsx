@@ -41,7 +41,7 @@ each pixel and interaction resonates deeply.
 From concept spark to code strokes, I commit 
 to materializing your vision, crafting experiences 
 that empower your journey to excellence. Together, 
-let's breathe soul, intent, and innovation 
+let&apos;s breathe soul, intent, and innovation 
 into your digital presence.
         </p>
         </div>
