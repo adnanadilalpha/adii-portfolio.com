@@ -5,6 +5,7 @@ import Navbar from "@/app/component/navbar"
 import Socail from './component/social'
 import { poppins } from './ui/fonts'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,8 +26,8 @@ export default function RootLayout({
         {children}
         <Socail></Socail>
         <Analytics/>
+        <SpeedInsights/>
         </body>
-
     </html>
   )
 }
